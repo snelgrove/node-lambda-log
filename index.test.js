@@ -1,4 +1,4 @@
-const log = require('.');
+const { log } = require('.');
 const LambdaLog = require('./lib/LambdaLog');
 
 describe('Default Export', () => {

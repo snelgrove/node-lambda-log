@@ -6,4 +6,5 @@ const LambdaLog = require('./lib/LambdaLog');
  */
 const log = new LambdaLog();
 
-module.exports = log;
+module.exports.log = log;
+module.exports.LambdaLog = LambdaLog;
